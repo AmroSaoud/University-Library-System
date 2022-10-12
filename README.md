@@ -4,22 +4,29 @@ you are going to implement your own version of university library system using J
  Admin view
 o Add/remove Students
 o Add/remove librarian
-o Add/remove other admins  Librarian view
+o Add/remove other admins 
+
+ Librarian view
 o Add/Delete books
 o Issue/Return books
 o View books
 o View Issued books
 o Log in /log out
 o Search for the book(id/name)
+
  Simple backend for your system , You could use a file each row should represent item o Books File should be something like:
 Id , Book Name, Author Name, Available quantity, Issued Quantity 1,Oliver Twist, Charles Dickens,98,2
 In the previous the first row was the name of each column , you can do that or
-handle it in your code , id =1 , Book Name =Oliver Twist ..Etc.  Tables needed
+handle it in your code , id =1 , Book Name =Oliver Twist ..Etc. 
+
+ Tables needed
+
 o Books
  Id
  Book Name
  Author Name
  Available quantity  Issued quantity
+
 o Issued Books
  Procedure ID
  Book ID(Represent the book from Books table)
@@ -29,6 +36,7 @@ o Issued Books
  Student name
  Student Birthday  Email
  Mobile number
+
 o Librarians
  Librarian id
  Librarian name
@@ -37,7 +45,9 @@ o Librarians
  Admin name
  Admin password
  Technical requirements to check
+
 o No ID in any table should be repeated
+
 o When the librarian issue book to a student you should check the following
  if the student is students table
  if the book name or id in books table , if there are more than one book
